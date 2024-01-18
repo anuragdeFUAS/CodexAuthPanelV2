@@ -73,7 +73,7 @@ MIDDLEWARE = [
 
 
 CSRF_COOKIE_SECURE = True
-CSRF_TRUSTED_ORIGINS = ["https://codex-auth.azurewebsites.net", "http://localhost:8000"]
+CSRF_TRUSTED_ORIGINS = ["https://codex-auth.azurewebsites.net", "http://localhost:8000", "https://codexauthv2.onrender.com"]
 
 
 CORS_ORIGIN_ALLOW_ALL = True
